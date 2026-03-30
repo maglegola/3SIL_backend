@@ -1,5 +1,5 @@
 import os
-API_KEY = os.getenv("API_KEY", "replace-this-with-your-secret")
+API_KEY = os.getenv("API_KEY", "ZXasqw13")
 from fastapi import FastAPI, Header, HTTPException, Query
 from pydantic import BaseModel
 from typing import Optional, List
